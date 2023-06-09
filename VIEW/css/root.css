@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+:root {
+    --yellow : #f9cb13;
+    --black : #292929 ; 
+    --box-shadow-1 :  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    --box-shadow-2: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --box-shadow-3: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    --bg1 : #dee2e6 ;
+    --bg3 : #f3f5f7 ;
+    --bg2 : #f3f5f77b ;
+    --ecr : #636b72 ; 
+}
+
+*{
+    padding : 0 ; 
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito";
+}   

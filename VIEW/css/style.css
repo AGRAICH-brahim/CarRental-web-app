@@ -1,0 +1,367 @@
+@import url("./root.css");
+
+
+
+*{
+    font-family: "Nunito";
+}
+.logo {
+    height: 100px;
+     /* pour eliminer l'arriére pla de limage */  
+
+    border-radius: 10px ;  
+
+}
+
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/accueil.jpg);
+    background-attachment: scroll;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:  #FCFBFC;
+}
+
+
+ /* Styles for the header/navigation */
+ header {
+    position: relative;
+    top: -5px;
+    /* background-color: #00000090; */
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav {   /* pour mettre les bouton d'inscription et de connection en place */
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+
+  nav div {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  nav div a {
+    position: relative;
+    min-width: 80px;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--black);
+    background-color: var(--yellow);  
+    box-shadow: var(--box-shadow-3);
+}
+  
+
+  nav ul li {
+    padding-left: 20px;
+    margin-right: 30px;  /* met de l'espace entre les elements de la liste */
+  }
+  
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+
+
+/* Styles pour la section de réservation */
+#reservation {
+	/* background-color: #f7f7f740; */
+    position: relative;
+    margin-left: 100px;
+    background-color:  #2d2d2d;
+	  padding: 10px 20px;
+    width: 500px;
+	  text-align: center;
+    border-radius: 10px;
+}
+
+.container_reservation .title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+}
+
+.container_reservation .title .title_content{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  padding-left: 15px;
+  gap: 10px; 
+  flex-wrap: wrap; 
+}
+
+.container_reservation .title .title_content span:last-child{
+  position: absolute;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  background-color: var(--yellow);
+  border-radius: 50%;
+  box-shadow: var(--box-shadow-3);
+  color: black;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Anton";
+  border: 1px solid white;
+}
+
+.container_reservation .line{
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 0.5px;
+  background-color: #f9cb135a; 
+  align-items: center;
+}
+
+.container_reservation .line::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: var(--yellow);
+
+}
+.container_reservation .line::after{
+  content: "";
+  position: absolute;
+  right: 0;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: var(--yellow);
+}
+
+.container_reservation .title  img {
+  position: relative;
+  width: 50px;
+}
+
+nav ul img {
+  position: relative;
+  width: 45px;
+  top: -7px;
+}
+
+.container_reservation .title  span {
+  position: relative;
+  font-size: 14px;
+  text-transform: uppercase;
+  /* color: var(--yellow); */
+  color: white;
+  font-weight: 600;
+}
+
+form {
+  position: relative;
+  padding: 10px 0px;
+  margin-top: 10px;
+}
+
+
+form div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: left;
+  margin-bottom: 10px;
+}
+
+form div label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-align: left;
+  color: white;
+  font-size: 11px;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+form div label img {
+  position: relative;
+  width: 20px ; 
+}
+
+
+
+
+/* input[type="date"], select {
+	padding: 15px;
+	border: 3px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	width: 90%;
+} */
+
+form button{
+	background-color: var(--yellow);
+	color: black;
+	padding: 15px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 12px;
+  font-weight: 700;
+	cursor: pointer;
+  margin-top: 15px;
+  transition: all 0.2s ease;
+}
+
+form button:hover {
+  color: var(--yellow);
+	background-color: #444;
+}
+
+/* Styles for the features section */
+#features {
+    display: flex;
+    top: 100px;
+    justify-content: space-between;
+    margin: 230px 50px;
+    gap: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  .H2-{ 
+    background-color: #d4d2cd32;
+    text-align: center;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    position: relative;
+    font-size: 14px;
+    text-transform: uppercase;
+    /* color: var(--yellow); */
+    font-weight: 800;
+    top: 1px;
+  }
+
+  #features h2 {
+    margin-bottom: 20px;
+  }
+
+  .title__1{
+    text-align: center;
+    text-transform: uppercase;
+    /* color: var(--yellow); */
+    font-weight: 800;
+    position: relative;
+    top: 170px;
+  }
+
+  .title___1 {
+    color: #f9cb13;
+  }
+  
+  #features div {
+    flex-basis: 30%;
+    border-radius: 10px;
+    padding: 40px 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  #features p {
+    text-align: justify;
+    font-weight: 700 ;
+    color: #393939c5;
+    position: relative;
+    font-size: 13px;
+    text-transform: uppercase;
+    /* color: var(--yellow); */
+    font-weight: 600;
+  }
+
+ /* Styles for the call-to-action section */
+ #cta {
+    background-color: var(--yellow);
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    /* color: var(--yellow); */
+    font-weight: 600;
+  }
+  
+  #cta h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: black;
+  }
+  
+  #cta p {
+    font-size: 19px;
+    margin-bottom: 70px;
+    position: relative;
+    margin-top: -15px;
+    color: black;
+  }
+
+  #cta a {
+    background-color: #44444428;
+    border-radius: 2px;
+    padding: 7px;
+    color: black;
+    font-weight: 700;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+
+  #cta a:hover {
+    color: var(--yellow);
+    background-color: #444;
+  }
+
+/* Styles pour le footer */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+    text-align: center ;
+}
+
+input   , select{
+  position: relative;
+  padding: 10px 10px;
+  font-size: 12px;
+  font-family: "Nunito";
+  border: none;
+  outline: none;
+  border-radius: 2px;
+}
+

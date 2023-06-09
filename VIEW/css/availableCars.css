@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+img {
+    width: 35%;
+}
+
+body{
+    font-family: "Nunito";
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    color: #636b72;
+
+}
+
+nav .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3f5f7;
+}
+nav .container .how {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    margin-left: 30px;
+
+}
+nav .container .how .welcome {
+    position: relative;
+    right: 50px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #505860;
+}
+.how img {
+    position: relative; 
+    left: 70px;
+}
+
+nav button{
+    position: relative;
+    min-width: 80px;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+    background-color:  #f9cb13;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    right: 50px;
+}   
+
+nav .line{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 5px;
+    background-color: #e6d70ce3; 
+    align-items: center;
+  }
+  
+.sideform {
+    position: relative;
+    left: 100px;
+    width: 350px ;
+    box-shadow:  rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+form {
+    position: relative;
+    padding: 0px 10px;
+    top: -15px;
+  }
+form .periode p {
+    font-size: 14px;
+
+}
+
+  form div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 0.2px;
+
+  }
+
+  input   , select{
+    position: relative;
+    padding: 10px 10px;
+    font-size: 12px;
+    font-family: "Nunito";
+    border: 0.5px solid black ;
+    outline: none;
+    border-radius: 2px;
+  }
+
+  form button{
+	background-color: #f9cb13;
+	color: black;
+	padding: 15px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 12px;
+    font-weight: 700;
+	cursor: pointer;
+    margin-top: 15px;
+    transition: all 0.2s ease;
+}
+
+form div label img {
+    position: relative;
+    width: 20px ; 
+  }
+
+form button:hover {
+    color: #f9cb13;
+	background-color: #444;
+}
+.contenu {
+    display: flex;
+    flex-direction: row;
+}
+
+.contenetdispo {
+    display: flex;
+    flex-direction: column;
+    gap : 40px ;
+   
+    margin-bottom: 150px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    background-color: white;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;;
+    padding: 15px;
+    width: 930px;
+    height: 300px;
+    position: relative;
+    left: 170px;
+    top: 50px;
+}
+
+.inline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.imagvoiture {
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+.pay {
+    display: flex;
+    gap: 55px;
+    flex-direction: column;
+    justify-content: left ;
+    position: absolute;
+    top: 65px;
+    left: 600px;
+}
+
+.content div div h2 {
+    color: #333;
+}
+
+.content li {
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.element li img {
+    position: relative;
+    width: 20px ;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    right: 20px;
+}
+
+.pay button{
+	background-color: #f9cb13;
+	color: black;
+	padding: 15px 20px;
+	border: none;
+	font-size: 12px;
+    font-weight: 700;
+	cursor: pointer;
+    margin-top: 2px;
+    transition: all 0.2s ease;
+    width: 320px;
+    height: 60px;
+}
+
+.pay button:hover {
+    color: #f9cb13;
+	background-color: #444;
+}
+
+.leprix {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.leprix div h2 {
+    color: #333;
+    position: relative;
+    top: -10px;
+}
+
+.leprix div P {
+    display: flex;
+    position: relative;
+    top: 20px;
+    right: 40px;
+}
+
+
+.devis {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 7px;
+}
+
+
+
+/* Styles pour le footer */
+footer {
+    display: flex;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+    text-align: center ;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+}

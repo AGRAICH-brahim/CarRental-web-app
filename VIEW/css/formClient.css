@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+img {
+    width: 35%;
+}
+
+body{
+    font-family: "Nunito";
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    color: #636b72;
+    
+}
+section{
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+}
+
+
+nav .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3f5f7;
+}
+nav .container .how {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    margin-left: 30px;
+
+}
+nav .container .how .welcome {
+    position: relative;
+    right: 50px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #505860;
+}
+.how img {
+    position: relative; 
+    left: 70px;
+}
+
+nav button{
+    position: relative;
+    min-width: 80px;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+    background-color:  #f9cb13;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    right: 50px;
+    transition: all 0.2s ease;
+}   
+
+nav button:hover {
+    color: #f9cb13 ;
+	background-color: #444;
+}
+
+nav .line{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 5px;
+    background-color: #e6d70ce3; 
+    align-items: center;
+  }
+  .containner0 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-top: 40px;
+    gap: 20px;
+  }
+  .containner1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 40px;
+    gap: 20px;
+  }
+
+  .containner1 .containner2 div  h2 , .containner1 .containner3 div  h2 {
+    display: flex;
+    position: relative;
+    font-family: Arial, sans-serif;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+  }
+  .AZ {
+    width: 86%;
+  }
+
+  .containner2 , .containner3{
+    margin-left: 80px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    padding: 10px;
+  }
+  .containner1 .containner2 .ligne1 , .containner1 .containner3 .ligne1 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 3px;
+    padding-right: 10px;
+    right: 10px;
+    padding-left: 10px;
+    background-color: #f9cb13;
+  }
+
+  .form  {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+  }
+
+  .form  .donnees , .form  .info  {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 25px;
+  }
+
+  .COORDONNES {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 65px;
+  }
+
+  .radio {
+    display: inline-flex;
+    overflow: hidden;
+
+  }
+  .radio-input {
+    display: none;
+  }
+  .radio-label {
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    font-weight: 800;
+    color: black;
+    font-size: 16px;
+    align-items: center;
+    cursor: pointer;
+    width: 190px;
+    height: 40px;
+    transition: background 0.2s;
+    border: 1px solid #f9cb13;
+  }
+  .radio-label:hover {
+    background-color: #ffd32239;
+  }
+  .radio-input:checked + .radio-label {
+    background: #f6c607;
+    color: black;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    transition: background 0.2s;
+  }
+  .radio-input:checked + .radio-label:hover {
+    background-color: #f9cb13;
+    color: white;
+  }
+
+
+  .form  .name {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .input--data{
+    position: relative;
+  }
+  .input--data input{
+    height: 60px;
+    width: 400px ;
+    font-size: 18px;
+    padding: 0 15px;
+    border: 1px solid #acacacbd;
+    background: transparent;
+    color: black;
+    outline: none;
+  }
+  .input--data label{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #261919;
+    font-size: 19px;
+    pointer-events: none;
+    transition: 0.3s;
+  }
+  input:hover {
+    border: 1px solid #000000;
+  }
+  input:focus{
+    border: 1px solid #f9cb13;
+  }
+  
+  .input--data input:focus ~ label,
+  .input--data input:valid ~ label{
+    top: 0;
+    left: 15px;
+    font-size: 16px;
+    padding: 0 2px;
+    background: #ffffff;
+  }
+
+
+  .input-data{
+    position: relative;
+  }
+  .input-data input{
+    height: 60px;
+    width: 170px;
+    font-size: 18px;
+    padding: 0 15px;
+    border: 1px solid #acacacbd;
+    background: transparent;
+    color: black;
+    outline: none;
+  }
+  .input-data label{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #261919;
+    font-size: 19px;
+    pointer-events: none;
+    transition: 0.3s;
+  }
+  input:hover {
+    border: 1px solid #000000;
+  }
+  input:focus{
+    border: 1px solid #f9cb13;
+  }
+  
+  .input-data input:focus ~ label,
+  .input-data input:valid ~ label{
+    top: 0;
+    left: 15px;
+    font-size: 16px;
+    padding: 0 2px;
+    background: #ffffff;
+  }
+
+  .checkbox {
+    padding: 10px;
+  }
+  .checkbox input {
+    width: 30px;
+  }
+
+  .boutton {
+    padding: 20px;
+    display: flex;
+    position: relative;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    left: 80px;
+  }
+  .boutton button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #f9cb13 ;
+    transition: all 0.2s ease;
+  }
+
+  .boutton button:hover {
+    color: #f9cb13;
+    background-color: #444;
+  }
+
+  .side {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: justify;
+    margin-right: 40px;
+  }
+
+  .totale-a-payer {
+    display: flex;
+    color: #000000;
+    position: relative;
+    top: 80px;
+    background: #cedbe759;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    padding: 15px;
+  }
+  .side .iinfo {
+    width: 300px;
+    position: relative;
+    top: 100px;
+
+  }
+
+
+  .mode_paiyment {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    padding: 15px;
+    left: 110px;
+
+
+  }
+  
+  /* Styles pour le footer */
+footer {
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center ;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+}

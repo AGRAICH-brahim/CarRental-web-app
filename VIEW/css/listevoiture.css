@@ -1,0 +1,203 @@
+/* Reset des styles */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+  /* Styles généraux */
+  body {
+    font-family: "Nunito";
+    font-size: 16px;
+    line-height: 1.5;
+    color: #636b72;
+    background-color: #f3f5f7;
+    }
+    
+    h1, h3 {
+    margin: 1rem 0;
+    }
+    
+    /* Styles de la barre de navigation */
+    .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    background-color: #ffffff;
+    padding: 2rem;
+    color: #636b72;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sidebar h1 {
+    position: relative;
+    top: -10px;
+  }
+  
+  .sidebar img {
+    width: 67%;
+  }
+  
+    .sidebar h1 {
+    margin-bottom: 2rem;
+   }
+   
+   a {
+    color: inherit;
+    text-decoration: none;
+    }
+    
+    .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    
+    .sidebar ul li {
+    margin-bottom: 1.1rem;
+    transition: background-color 0.2s ease-in-out;
+    padding-left: 10px;
+   }
+  
+    .sidebar ul li img {
+      width: 10%;
+      position: relative;
+      right: 10px;
+    }
+    
+    .sidebar ul li a {
+    display: block;
+    padding: 0.5rem;
+    }
+    
+    .sidebar ul li:hover {
+    background-color: #a4b5bab5;
+    border-radius: 5px;  
+    }
+    
+    /* Styles de l'en-tête */
+    main {
+    margin-left: 250px;
+    padding: 2rem;
+    }
+    
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -50px;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.099) 0%, rgba(213, 210, 210, 0.8) 50%, rgba(255, 255, 255, 0) 100%),
+                linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 100%);
+    }
+    
+    header h1 {
+    font-size: 2rem;
+    }
+    
+    header button {
+    background-color: #4CAF50;
+    border: none;
+    padding: 0.5rem 0.3rem;
+    margin-right: 12px;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    position: relative;
+    left: 9px;
+    font-size: 1rem;
+    cursor: pointer;
+    }
+   
+    
+    /* Styles de la section des dernières réservations */
+    table {
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    }
+    
+    thead th {
+    padding: 0.5rem;
+    text-align: left;
+    border: none;
+    padding: 15px 30px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    background-color: #95a5a694;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    }
+  
+  .barre_recherche{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+    
+   .barre_recherche input[type="text"] {
+      width: 260px;
+      height: 25px;
+      padding: 5px;
+      margin-right: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    .barre_recherche button[type="submit"] {
+      padding: 9px 10px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      position: relative;
+      right: 7px;
+    }
+
+  .barre_recherche .boutton a  {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      position: relative;
+      top: 8px;
+      width: 200px;
+  }
+  
+   
+   
+    :target {
+      background-color: yellow;
+    }
+    
+    
+    
+    tbody td {
+    padding: 15px 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+    border: none; 
+    }
+  
+  
+    /* Styles de la section du top 5 des véhicules réservés */
+    ol {
+    list-style: decimal;
+    margin-top: 2rem;
+    }
+    
+    ol li {
+    margin-bottom: 0.5rem;
+    }
+    
+    
