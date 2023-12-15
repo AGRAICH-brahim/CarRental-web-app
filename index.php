@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./VIEW/css/style.css" />
-    <title>ViheculeSpace</title>
+    <title>Vihecule Space</title>
 </head>
 <body class="bac" >
 <header> 
@@ -14,7 +14,7 @@
         <li><a href="#">Voitures</a></li>
         <li><a href="#">Réservations</a></li>
         <li><a href="#">À propos</a></li>
-        <li><a href="#">Contacte</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
         <div class="buttons">
 			<a href="CONTROLLER/user/connexion/usersController.php?action=login" class="login">Login</a>
