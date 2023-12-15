@@ -14,7 +14,7 @@
         <li><a href="#">Voitures</a></li>
         <li><a href="#">Réservations</a></li>
         <li><a href="#">À propos</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">Contacte</a></li>
       </ul>
         <div class="buttons">
 			<a href="CONTROLLER/user/connexion/usersController.php?action=login" class="login">Login</a>
