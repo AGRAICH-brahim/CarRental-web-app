@@ -124,7 +124,10 @@
     <a href="#" class="button">Réserver maintenant</a>
   </section>
     <footer>
-    <p>© 2023 Location de voitures. Tous droits réservés.</p>
+    <p>© 2023 Location de voitures. Tous droits réservés.            <span>Date de début </span>
+    <span>Date de début </span>
+    <span>Date de début </span>
+</p>
     </footer>
 </body>
 </html>
