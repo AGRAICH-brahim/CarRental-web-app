@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./VIEW/css/style.css" />
-    <title>Vihecule Space</title>
+    <title>ViheculeSpace</title>//cela le changement 
 </head>
 <body class="bac" >
 <header> 
