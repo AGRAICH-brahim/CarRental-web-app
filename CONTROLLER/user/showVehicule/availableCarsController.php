@@ -2,7 +2,6 @@
 
 require_once '../../../MODELE/user/showVehicule/availableCarsModele.php';
 
-
 class availableCarsController {
     private $modele ; 
 
